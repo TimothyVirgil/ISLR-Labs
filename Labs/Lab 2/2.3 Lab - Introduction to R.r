@@ -127,4 +127,10 @@ pairs(Auto) #scatterplot for every pair of variables
 
 pairs(~ mpg + displacement + horsepower + weight + acceleration, Auto) #pairs but a subset
 
+plot(horsepower,mpg)
+identify(horsepower,mpg,name) #Very important.... click then hit esc to stop... otherwise you are in endless locator mode!!!!
+
+summary(Auto) #summary of data frame
+
+summary(mpg)
 
